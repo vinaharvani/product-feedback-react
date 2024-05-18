@@ -1,7 +1,11 @@
-import { Component } from 'react';
+// import { Component } from 'react';
 import './App.css';
 import Left from './component/Left';
 import Right from './component/Right';
+import Detail from './component/Detail';
+import article from "./component/Article";
+// import {Routes, Route} from 'react-router-dom';
+
 
 function App() {
   return (
@@ -16,4 +20,7 @@ function App() {
   );
 }
 
+
+
 export default App;
+

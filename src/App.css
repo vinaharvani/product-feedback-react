@@ -192,7 +192,7 @@ body {
   flex-direction: column;
 }
 
-.right .suggestions-list .suggestion-item {
+ .suggestion-item {
   display: flex;
   align-items: stretch;
   background-color: white;
@@ -202,14 +202,14 @@ body {
 
 }
 
-.suggestions-list .suggestion-item .suggestion-upvotes-container {
+.suggestion-item .suggestion-upvotes-container {
   display: flex;
   align-items: flex-start;
   margin-right: 40px;
 }
 
 
-.suggestions-list .suggestion-item .suggestion-upvotes-container .suggestion-upvotes {
+.suggestion-item .suggestion-upvotes-container .suggestion-upvotes {
   display: flex;
   gap: 5px;
   flex-direction: column;
@@ -227,7 +227,7 @@ body {
   font-size: 15px;
 }
 
-.suggestions-list .suggestion-item .suggestion-info {
+ .suggestion-item .suggestion-info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -235,7 +235,7 @@ body {
   text-decoration: none;
 }
 
-.suggestions-list .suggestion-item .suggestion-info .suggestion-title {
+ .suggestion-item .suggestion-info .suggestion-title {
   color: #3a4374;
   margin-bottom: 4px;
   line-height: 26px;
@@ -243,7 +243,7 @@ body {
   font-weight: 900;
 }
 
-.suggestions-list .suggestion-item .suggestion-info .suggestion-description{
+ .suggestion-item .suggestion-info .suggestion-description{
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;
@@ -251,7 +251,7 @@ body {
   margin-bottom: 12px;
 }
 
-.suggestions-list .suggestion-item .suggestion-info .suggestion-category{
+ .suggestion-item .suggestion-info .suggestion-category{
   background-color: #f2f4ff;
   color: #4661e6;
   padding: 5px 16px;
@@ -261,13 +261,13 @@ body {
   line-height: 19px;
 }
 
-.suggestions-list .suggestion-item .suggestion-comments {
+.suggestion-item .suggestion-comments {
   display: flex;
   gap: 5px;
   align-items: center;
 }
 
-.suggestions-list .suggestion-item .suggestion-comments span {
+.suggestion-item .suggestion-comments span {
   color: #3a4374;
   text-align: center;
   font-size: 16px;
